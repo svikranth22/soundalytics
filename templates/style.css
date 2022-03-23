@@ -1,0 +1,52 @@
+
+body {
+    background-image: url("img.jpg");
+    background-size:cover;
+    font-family: 'Roboto Mono', monospace;
+}
+.homepage {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+}
+
+.welcome {
+    color: white;
+    margin-top: 10%;
+}
+
+.login {
+    color: lightgray;
+    padding: 10px;
+}
+
+.login label {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.login input {
+    width: 50%;
+    height: 35px;
+    background-color: black;
+    border: 1px solid lightgrey;
+    box-shadow: 3px 3px lightgrey;
+}
+
+.button {
+    width: 100%; 
+    margin-top: 10%;
+    margin-left: 18%;
+
+}
+
+.button button {
+    color: white;
+    height: 35px;
+    width: 15%;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: black;
+    border: 1px solid green;
+    box-shadow: 3px 3px green;
+}
